@@ -15,7 +15,7 @@ This final project is a hotel management system implemented in SQL and Python. I
 
 -Python 3.xx
 
--Tkinter (should be included with the Python installation)
+-Tkinter, Tkcalendar, and Datetime (if not installed)
 
 -Python/MySQL connector (installed via 'pip install mysql-connector-python' on cmd)
 
