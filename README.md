@@ -24,7 +24,7 @@ This final project is a hotel management system implemented in SQL and Python. I
 
 ## Installation and Usage
 
-1. After having met the requirements, download the 'Hotel System with GUI.py' and 'Hotel Management System Table.sql' files.
+1. After having met the requirements, download the 'Final Project - Hotel Management System with GUI' and 'Hotel Management System Table.sql' files.
 2. Open the .sql file in MySQL, and after running it, a database with tables and testing values will be created.
 3. Then, open the .py file with Python IDLE.
 4. You might need to update the database connection details in the Python script to match your MySQL server configuration, which is located on the 'connect_to_database' function.
