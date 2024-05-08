@@ -240,8 +240,12 @@ def create_main_window():
     root.title("Hotel Management System")
     root.configure(background='light blue')
 
+    # Header
+    header_label = ttk.Label(root, text="Hotel Management System", font=("Helvetica", 20, "bold"), background='light blue')
+    header_label.pack(pady=20)
+
     frame = ttk.Frame(root, padding="20", style="Background.TFrame")
-    frame.grid(row=0, column=0)
+    frame.pack()
 
     list_rooms_button = ttk.Button(frame, text="List Available Rooms", command=list_available_rooms)
     list_rooms_button.grid(row=0, column=0, pady=5)
